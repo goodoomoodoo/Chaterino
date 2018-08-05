@@ -1,0 +1,62 @@
+.grid-container {
+    position: relative;
+    background: white;
+    color: #404040;
+    width: 90%;
+    max-width: 35em;
+    margin: 0 auto;
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 24% 76%;
+    padding: 2em;
+    border-radius: .2em;
+    box-shadow: 0 0 .3em #888;
+}
+
+.grid-title {
+    padding: 1.5em;
+}
+
+.grid-content {
+    padding: 1em;
+}
+
+.grid-content input {
+    border: none;
+    border-radius: .3em;
+    padding: .5em;
+    box-shadow: 0 0 .5em #888;
+}
+
+.grid-content div {
+    padding: .5em;
+    border-radius: .3em;
+    background: #eee;
+}
+
+.btn-container {
+    position: relative;
+    grid-column-start: 2;
+    margin-left: 50%;
+    margin-top: 3em;
+}
+
+.btn {
+    display: inline-block;
+    padding: .8em;
+    line-height: .5em;
+    border-radius: .3em;
+    color: #eee;
+    margin-left: .5em;
+    box-shadow: 0 0 .3em #aaa;
+    cursor: pointer;
+}
+
+.cancel {
+    background: white;
+    color: #aaa;
+}
+
+.create {
+    background: #4885ed;
+}

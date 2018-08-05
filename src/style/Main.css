@@ -1,0 +1,90 @@
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 50em;
+    margin: 0 auto;
+    margin-top: 1em;
+    box-shadow: 0 0 .3em #aaa;
+    border-radius: .2em;
+    background: white;
+    padding: 2em;
+}
+
+.grid-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 8em auto;
+}
+
+.grid-table {
+
+}
+
+.table-container {
+    padding: 0;
+    margin-top: 2em;
+}
+
+.table-container li {
+    border-bottom: solid 1px #aaa;
+    text-align: left;
+    padding: .7em;
+}
+
+.grid-content {
+    padding-left: 3em;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.title {
+    font-weight: normal;
+    line-height: 3em;
+    border-bottom: solid 2px #74a7ff;
+}
+
+.caption {
+    font-weight: normal;
+    padding-top: .5em;
+    padding-left: 1em;
+}
+
+.steps-container {
+    padding: 0;
+    padding-left: 3em;
+}
+
+.steps-container li {
+    text-align: left;
+    padding: .7em;
+}
+
+.links-container {
+    padding: 0;
+    padding-left: 3em;
+}
+
+.links-container li {
+    text-align: left;
+    padding: .2em;
+}
+
+.links-container li > a {
+    color: currentColor;
+}
+
+::-webkit-scrollbar {
+    width: .5em;
+}
+
+::-webkit-scrollbar-track {
+    visibility: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #aaa;
+}
+
+::-webkit-scrollbar-thumb:active {
+    background: #888;
+}

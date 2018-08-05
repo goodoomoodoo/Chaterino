@@ -1,0 +1,54 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    width: 20em;
+    text-align: center;
+    padding: 3em;
+    box-shadow: 0 0 .5em #555;
+}
+
+.title {
+    position: relative;
+    margin: 0;
+    margin-bottom: 2em;
+    font-weight: normal;
+    color: #404040;
+    border-bottom: solid 1px currentColor;
+    padding: .3em;
+}
+
+.btn {
+    position: relative;
+    font-size: 1.1em;
+    color: #eee;
+    width: 12em;
+    padding: .8em;
+    border-radius: .3em;
+    box-shadow: 0 0 .5em #555;
+    cursor: pointer;
+}
+
+.logo {
+    position: absolute;
+    background: white;
+    border-radius: .3em;
+    padding: .15em;
+    top: .1em;
+    left: .1em;
+    width: 2em;
+    height: 2em;
+}
+
+.grid-container {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 20% 80%;
+}
+
+.grid-context {
+    line-height: 1em;
+}
+
+.google-btn{
+    background: #4885ed;
+}

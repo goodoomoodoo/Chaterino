@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555;
+}
+
+.container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-container {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20em auto;
+    grid-template-rows: 6em 4em auto 8em;
+}
+
+.grid-header {
+    border-bottom: solid 1px #aaa;
+}
+
+.logo-container {
+    text-align: center;
+    height: 3em;
+    border-bottom: solid 1px #aaa;
+}
+
+.logo {
+    width: 2.5em;
+    height: 2.5em;
+    padding-top: .3em;
+}
+
+.logo-title {
+    display: inline-block;
+    transform: translateY(-.4em);
+    font-size: 1.7em;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+.grid-commands {
+    
+}
+
+.grid-commands ul, li {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.btn {
+    padding: .4em;
+    color: #eee;
+    cursor: pointer;
+    box-shadow: 0 0 .3em #555;
+    background: #4885ed;
+}
+
+.btn:hover {
+    opacity: .6;
+}
+
+.grid-main {
+    background: #eee;
+    border-left: solid 1px #aaa;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+
+.grid-rooms ul, li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-rooms h3 {
+    margin: 0;
+    padding-bottom: .2em;
+    margin-bottom: .5em;
+    font-weight: normal;
+    color: #888;
+    border-bottom: solid 1px currentColor;
+}
+
+.rooms-container {
+    height: 63vh;
+    overflow-y: scroll;
+}
+
+.grid-rooms ul {
+    padding: 1em;
+}
+
+.grid-rooms li {
+    padding: .5em;
+    text-align: left;
+    cursor: pointer;
+}
+
+.grid-rooms li:hover {
+    background: #eee;
+}
+
+.grid-util {
+    border-top: solid 1px #aaa;
+}
+
+.grid-util ul {
+    padding: 0;
+    margin: 0;
+    margin-top: .3em;
+}
+
+.tag {
+    position: relative;
+    font-size: .8em;
+    color: #aaa;
+    text-align: center;
+    margin-top: .5em;
+}
+
+.tag a {
+    color: currentColor;
+}

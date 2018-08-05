@@ -1,0 +1,86 @@
+.grid-container {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 80%;
+    max-width: 45em;
+    height: 90%;
+    background: white;
+    border-radius: .2em;
+    box-shadow: 0 0 .3em #aaa; 
+    display: grid;
+    grid-template-rows: 2em auto 5em;
+}
+
+.grid-bar {
+    box-shadow: 0 2px .3em #aaa;
+}
+
+.grid-chatbox {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.chatbox-container {
+    padding: 0;
+}
+
+.chatbox-container li {
+    text-align: left;
+    border-radius: .2em;
+    box-shadow: 0 .1em .1em #ccc;
+}
+
+.username {
+    color: #707070;
+    font-weight: bold;
+    padding-top: .5em;
+    padding-left: 1.5em;
+}
+
+.chatmessage {
+    padding: .2em;
+    padding-left: 1.5em;
+}
+
+.grid-input {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.roomname {
+    color: #888;
+    padding: .5em;
+}
+
+.icon {
+    position: absolute;
+    right: 1em;
+    padding-top: .3em;
+    fill: #aaa;
+    width: 1em;
+    height: 1.5em;
+}
+
+.icon:hover {
+    fill: #555;
+}
+
+.input-container {
+    box-shadow: 0 .1em .3em #aaa;
+}
+
+.input-header {
+    float: left;
+    padding: .3em;
+}
+
+.input-box {
+    border: none;
+    width: 90%;
+    padding: .4em;
+}
+
+.input-box:focus {
+    outline: none;
+}

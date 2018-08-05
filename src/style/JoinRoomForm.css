@@ -1,0 +1,54 @@
+.container {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 90%;
+    max-width: 35em;
+    box-shadow: 0 0 .3em #aaa;
+    background: white;
+    border-radius: .2em;
+    padding: 2em;
+}
+
+.btn-container {
+    position: relative;
+    margin-left: 50%;
+    margin-top: 3em;
+}
+
+.btn {
+    display: inline-block;
+    padding: .8em;
+    line-height: .5em;
+    border-radius: .3em;
+    color: #eee;
+    margin-left: .5em;
+    box-shadow: 0 0 .3em #aaa;
+    cursor: pointer;
+}
+
+
+.cancel {
+    background: white;
+    color: #aaa;
+}
+
+.join {
+    background: #4885ed;
+}
+
+.input-container {
+    text-align: center;
+}
+
+.input-container input {
+    border: none;
+    padding: .5em;
+    box-shadow: 0 0 .3em #aaa;
+}
+
+.error-box {
+    margin-top: .5em;
+    font-size: .8em;
+    color: #aaa;
+}
